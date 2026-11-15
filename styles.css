@@ -933,7 +933,7 @@ p.count {
 
 /* header margin so it doesnt clip with arrows*/
 .carousel-wrapper h2{
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .carousel{
@@ -1657,7 +1657,7 @@ justify-content: center;
 
     /* add padding on either side AND make it so theres onlt 2 cards not 3*/
     .site-essentials .vertical-cards-grid {
-        padding: 0 5rem;
+        padding: 0 2rem;
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
@@ -1959,7 +1959,7 @@ justify-content: center;
     /* carousel image cards, make it smaller */
     .carousel img {
         width: 300px;
-        height: auto;
+        height: 200px;
     }
 
 
