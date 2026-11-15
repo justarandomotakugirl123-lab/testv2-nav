@@ -895,7 +895,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ]
         },
         "festivals": {
-            pathway: "Home / Things to Do / Events & Festivals / Festivals",
+            pathway: "Home / Events & Festivals / Festivals",
             mainHeader: "Events & Festivals",
             bannerImage: "assets/festivals.jpg",
             subTitle: "National & Cultural Celebrations",
