@@ -951,6 +951,10 @@ p.count {
 }
 
 
+h2.space {
+    margin-top: 5rem;
+}
+
 
 .carousel img {
     width: 400px;
@@ -1877,6 +1881,8 @@ justify-content: center;
     .things-second-nav,
     .travel-second-nav {
   
+        left: 1rem;
+        right:1rem;
         top: 8rem;
   
     }
@@ -1901,6 +1907,26 @@ justify-content: center;
 
 @media (max-width: 400px) {
     
+    /* navigation */
+    /* superi mportant, make the 2nd nav column, the images keep flex? */
+
+    .sub-nav {
+        display: flex;
+        padding: 1.3REM;
+        flex-direction: column;
+        GAP: .8rem;
+
+    }
+    
+    /* make the third nav be displayed in 2 2 2 */
+
+    .places-second-nav .panel.active,
+    .things-second-nav .panel.active,
+    .travel-second-nav .panel.active {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
 
     .home-hero {
         min-height: 450px;
@@ -2052,6 +2078,7 @@ justify-content: center;
     .site-discover-mosque img {
         width: 90px;
         height: 120px;
+
     }
 
 
@@ -2078,9 +2105,9 @@ justify-content: center;
 
     /* visa requirements */
     .site-visa {
-       padding: 0 1rem;
+    padding: 0 1rem;
+
     }
-   
 
 
     #searchResults {
