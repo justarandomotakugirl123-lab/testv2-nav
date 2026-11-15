@@ -1889,7 +1889,7 @@ justify-content: center;
         display: flex;
         gap: 1rem;
         flex-direction: column;
-        padding-left: 5rem;
+        padding-left: 2rem;
     }
 }
 
@@ -2050,8 +2050,8 @@ justify-content: center;
     }
 
     .site-discover-mosque img {
-        width: 80px;
-        height: 90px;
+        width: 90px;
+        height: 120px;
     }
 
 
@@ -2076,6 +2076,11 @@ justify-content: center;
         padding: 3rem 1rem;
     }
 
+    /* visa requirements */
+    .site-visa {
+       padding: 0 1rem;
+    }
+   
 
 
     #searchResults {
